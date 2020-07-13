@@ -1,0 +1,38 @@
+{
+  "name": "to-go-server",
+  "version": "1.0.0",
+  "description": "the backend for online ordering",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Humphreyj/to-go-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Humphreyj/to-go-server/issues"
+  },
+  "homepage": "https://github.com/Humphreyj/to-go-server#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bcrypt": "^5.0.0",
+    "cluster": "^0.7.7",
+    "connect-session-knex": "^1.7.3",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "ddos": "^0.2.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "helmet": "^3.23.3",
+    "knex": "^0.21.2",
+    "log4js": "^6.3.0",
+    "nodemon": "^2.0.4",
+    "os": "^0.1.1",
+    "passport": "^0.4.1"
+  }
+}
